@@ -1,4 +1,4 @@
 export default function hello(req, res) {
-  req.statusCode = 200;
-  req.json({message: 'it works'});
+  res.statusCode = 200;
+  res.json({message: 'it works'});
 }
